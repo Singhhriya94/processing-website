@@ -589,3 +589,15 @@ cd /Applications/Processing.app/Contents/MacOS
 ```
 
 _**Note:** On macOS, the executable lives inside the `.app` bundle, so that's why there is a command to navigate to it's folder first. On Windows and Linux, Processing is typically added to your PATH by default, so no navigation is needed._
+### Examples
+
+Run a sketch from the command line:
+
+bash
+processing --sketch=/path/to/sketch --run
+
+
+Export a sketch as an application:
+
+bash
+processing --sketch=/path/to/sketch --export
